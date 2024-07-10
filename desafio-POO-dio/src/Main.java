@@ -60,6 +60,16 @@ public class Main {
         System.out.println("Conteúdos Concluidos João" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devClayton.calcularTotalXp());
 
+        Dev devAna = new Dev();
+        devAna.setNome("Ana");
+        devAna.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos Inscritos Ana" + devAna.getConteudosInscritos());
+        devAna.progredir();
+        devAna.progredir();
+        System.out.println("---");
+        System.out.println("Conteúdos Inscritos Ana" + devAna.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos Ana" + devAna.getConteudosConcluidos());
+        System.out.println("XP:" + devClayton.calcularTotalXp());
 
 
     }
